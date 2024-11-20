@@ -3,7 +3,7 @@
 session_start();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $admin_email = "aran9003@gmail.com";
+    $admin_email = "admin@gmail.com";
     $admin_password = "pass123";
 
     $email = $_POST['email'];
